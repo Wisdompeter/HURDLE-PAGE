@@ -1,0 +1,227 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.block {
+  display: block;
+}
+
+.hero-header {
+  width: 100%;
+  height: 900px;
+  margin-bottom: 170px;
+}
+
+h1,
+h2 {
+  font-size: 3em;
+  margin: 20px 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 25px;
+  padding: 10px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+li {
+  margin-bottom: 30px;
+}
+
+.overlay {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url("images/bg-hero-desktop.svg");
+  object-fit: contain;
+  object-position: center;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.container .flex {
+  justify-content: space-between;
+}
+
+.btn {
+  cursor: pointer;
+  width: 240px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: white;
+  border: 1px solid white;
+
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.try-btn {
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 80px 0;
+}
+
+.first-mockup {
+  width: 600px;
+  justify-self: flex-end;
+}
+
+.hero-header .grid {
+  grid-template-columns: 90%, 10%;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-middle {
+  padding: 0 20px;
+}
+
+.hero-middle .btn {
+  width: 260px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+.card {
+  background-color: white;
+  margin: 80px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1), 0px -5px 10px rgba(0, 0, 0, 0.1),
+    -5px 0px 10px rgba(0, 0, 0, 0.1), 5px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.first-card-content {
+  display: flex;
+}
+
+.text-content {
+  width: 700px;
+}
+
+.first-card-content img {
+  width: 500px;
+}
+
+.nav-down-one .card {
+  width: 700px;
+  height: 230px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.nav-down-one h3 {
+  padding: 40px 0 20px 0;
+  font-size: 33px;
+}
+
+.nav-down-one .btn {
+  width: 290px;
+  height: 60px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+.nav-down-one .btn:active {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1), 0px -5px 10px rgba(0, 0, 0, 0.1),
+    -5px 0px 10px rgba(0, 0, 0, 0.1), 5px 0px 10px rgba(0, 0, 0, 0.1);
+  transform: skew(-5deg);
+}
+
+footer {
+  width: 100%;
+  height: 600px;
+  background-color: hsl(192, 100%, 9%);
+  overflow: hidden;
+}
+
+.blus {
+  filter: contrast(200%) brightness(150%) invert(100%);
+
+}
+
+
+
+footer .container {
+  padding-top: 200px;
+  color: white;
+
+}
+
+.footer-row-one {
+  width: 45cap;
+
+}
+
+.footer  {
+  margin-top: 40px;
+}
+
+footer .container p {
+  font-size: 18px;
+padding: 0 0;
+}
+
+.footer-row-one .flex {
+  gap: 30px;
+  margin: 15px; 
+  align-items: self-start;
+  margin-top: 40px;
+}
+
+
+.footer-down-one  {
+  display: flex;
+  gap: 30px;
+  margin: 15px; 
+  align-items: self-start;
+  margin-top: 40px;
+}
+
+footer a:hover {
+  border-bottom: 2px solid white;
+}
+
+.footer-arrange {
+  display: flex;
+}
+
+.footer-flex {
+  display: flex;
+  gap: 250px;
+}
+
+.footer img {
+  width: 50px;
+}
+
+.footer a:hover {
+  border: none;
+}
